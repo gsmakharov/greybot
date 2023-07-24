@@ -13,7 +13,7 @@ async def approve_request(chat_join: ChatJoinRequest, bot: Bot):
     
 https://t.me/bonusVcasino1'''
     
-    await bot.send_photo(chat_id=chat_join.from_user.id, photo=FSInputFile(path='/Users/timurgamakharov/Desktop/Projects/own/grey/smm.jpeg'), caption=msg)
+    await bot.send_photo(chat_id=chat_join.from_user.id, photo=FSInputFile(path='smm.jpeg'), caption=msg)
 
     
 async def start():
